@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>下載 App</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f5f5f5;
+      text-align: center;
+      font-family: sans-serif;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      padding: 32px 20px;
+    }
+
+    .logo {
+      width: 100px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin-bottom: 12px;
+    }
+
+    .description {
+      margin-bottom: 28px;
+    }
+
+    .store-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .store-image {
+      display: block;
+      width: 280px;
+      max-width: 80vw;
+      height: auto;
+    }
+
+    .note {
+      margin-top: 24px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="card">
+
+    <img
+      src="logo.png"
+      alt="App Logo"
+      class="logo"
+    />
+
+    <h1>下載 XXX App</h1>
+
+    <p class="description">
+      請選擇您的手機系統下載 App
+    </p>
+
+    <div class="store-buttons">
+
+      <a
+        href="https://apps.apple.com/tw/app/line-rangers-放置戰爭/id6502433935"
+        target="_blank"
+        rel="noopener"
+      >
+        <img
+          src="appstore-button.png"
+          alt="App Store 下載"
+          class="store-image"
+        />
+      </a>
+
+      <a
+        href="https://play.google.com/store/apps/details?id=com.linecorp.LGATF&pcampaignid=web_share"
+        target="_blank"
+        rel="noopener"
+      >
+        <img
+          src="googleplay-button.png"
+          alt="Google Play 下載"
+          class="store-image"
+        />
+      </a>
+
+    </div>
+
+    <p class="note">
+      若沒有自動開啟下載頁面，請點選上方對應的商店。
+    </p>
+
+  </main>
+
+</body>
+</html>
